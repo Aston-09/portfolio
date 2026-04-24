@@ -176,10 +176,11 @@ export const socialMedia = [
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/AxnAston",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/aditya-singh-nayal" ,
+    link: "https://www.linkedin.com/in/aditya-singh-nayal-5678b3378?utm_source=share_via&utm_content=profile&utm_medium=member_android" ,
   },
 ];
