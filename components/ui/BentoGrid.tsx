@@ -100,12 +100,16 @@ export const BentoGridItem = ({
                 alt={img}
                 className={cn(
                   imgClassName, 
-                  "object-cover object-center",
-                  id === 1 && "opacity-80 contrast-125 saturate-150 mix-blend-screen"
+                  "object-cover",
+                  id === 1 ? "object-center opacity-60 md:opacity-80 contrast-125 saturate-150 mix-blend-screen" : "object-center"
                 )}
+                style={id === 1 ? {
+                  maskImage: "linear-gradient(to bottom, black 50%, transparent 100%)",
+                  WebkitMaskImage: "linear-gradient(to bottom, black 50%, transparent 100%)"
+                } : undefined}
               />
               {id === 1 && (
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#151513] via-transparent to-transparent pointer-events-none" />
               )}
             </>
           )}

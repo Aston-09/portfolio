@@ -10,7 +10,7 @@ export const gridItems = [
     title: "I prioritize clean architecture and seamless user experiences ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "absolute right-0 bottom-0 md:w-9/12 w-full",
+    imgClassName: "absolute inset-0 w-full h-full",
     titleClassName: "justify-end",
     img: "/project-flow.jpeg",
     spareImg: "/grid.svg",
