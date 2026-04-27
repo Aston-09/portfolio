@@ -45,7 +45,7 @@ const RecentProjects = () => {
                   transition={{ duration: 0.4 }}
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0 object-contain drop-shadow-2xl"
+                  className="z-10 absolute bottom-0 w-full h-full object-cover drop-shadow-2xl"
                 />
               </div>
 

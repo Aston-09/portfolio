@@ -95,11 +95,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Render Deployment — Cloud-Ready Node.js App",
-    des: "A full-stack Node.js application configured for seamless deployment on the Render cloud platform.",
+    title: "Cultural fest — Management System",
+    des: "A FastAPI and MySQL-based web application for managing cultural fest registrations, featuring an encrypted database, secure admin panel, and an aesthetic newspaper-themed frontend with PARALLAX EFFECT.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/aston",
+    iconLists: ["/python_hires.svg", "/html_hires.svg", "/css_hires.svg", "/js_hires.svg"],
+    link: "https://github.com/Aston-09/Fest-Registration.git",
   },
 ];
 
