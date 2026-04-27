@@ -34,18 +34,14 @@ const RecentProjects = () => {
               title="Visit Repository"
               href={item.link}
             >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10 group">
-                <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl glass noise border border-white/10"
-                >
-                  <img src="/bg.png" alt="bgimg" className="opacity-40 object-cover w-full h-full" />
-                </div>
+              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden lg:rounded-3xl h-[20vh] lg:h-[30vh] mb-10 group glass noise border border-white/10">
+                <img src="/bg.png" alt="bgimg" className="absolute inset-0 opacity-40 object-cover w-full h-full" />
                 <motion.img
                   whileHover={{ scale: 1.05, rotate: 1 }}
                   transition={{ duration: 0.4 }}
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0 w-full h-full object-cover drop-shadow-2xl"
+                  className="z-10 absolute inset-0 w-full h-full object-cover drop-shadow-2xl"
                 />
               </div>
 

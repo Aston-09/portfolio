@@ -81,7 +81,7 @@ export const projects = [
     id: 2,
     title: "PhishWall — Browser Security Extension",
     des: "A smart browser extension that detects phishing links in real-time and blocks high-risk websites automatically.",
-    img: "/p2.png",
+    img: "/p2.svg",
     iconLists: ["/html_hires.svg", "/python_hires.svg", "/js_hires.svg", "/css_hires.svg"],
     link: "https://github.com/Aston-09/PhishWall.git",
   },
