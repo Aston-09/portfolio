@@ -98,7 +98,7 @@ export const projects = [
     title: "Cultural fest — Management System",
     des: "A FastAPI and MySQL-based web application for managing cultural fest registrations, featuring an encrypted database, secure admin panel, and an aesthetic newspaper-themed frontend with PARALLAX EFFECT.",
     img: "/p4.svg",
-    iconLists: ["/python_hires.svg", "/html_hires.svg", "/css_hires.svg", "/js_hires.svg"],
+    iconLists: ["/python_hires.svg", "/html_hires.svg", "/mysql_hires.svg", "/css_hires.svg", "/js_hires.svg"],
     link: "https://github.com/Aston-09/Fest-Registration.git",
   },
 ];
